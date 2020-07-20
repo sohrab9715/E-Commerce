@@ -1,0 +1,236 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #F7F7F7;
+}
+nav
+{
+    min-height: 70px !important;
+}
+.navbar
+{
+    margin-top: 1px ;
+    margin-left: 20px;
+    margin-right: 20px;
+   position: relative;
+     background-color: #fff; 
+    box-shadow:1px 1px 10px 1px grey; 
+   margin-bottom: 5px;
+    height: 70px;
+  
+}
+.logo
+{
+    margin-left:30px;
+   margin-top: -10px;
+}
+.navbar-nav > li
+{
+    padding:20px;
+    color: rgb(0, 0, 0);
+    font-family:"Roboto";
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .color a
+  {
+        font-weight: 400;
+        color: rgb(0, 0, 0) !important;
+  }
+  .fa{ 
+    font-size: 17px;
+    font-weight: 380;
+}
+.search-box
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+    transition:  2s all linear;
+}
+.search-box input
+{
+    margin-top: 5px;
+    padding: 12PX 110PX;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow:1px 1px 10px 1px grey; 
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.search-btnclose
+{
+    position: absolute;
+     top: 95px; 
+    right: 50px;
+    color: black;
+    cursor: pointer;
+    font-size: 15px !important;
+  
+}
+ .sl
+ {
+  
+    margin-top: 5px;
+    
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+ .simage img
+ {
+     height: 300px;
+ }
+ .feature
+ {
+    margin-top: 10px;
+    margin-bottom: 10px;
+     background-color: #fff;
+     box-shadow:1px 1px 10px 1px grey;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+ }
+ .feature img 
+ {
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ .feature h5 
+ {
+    
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .feature p 
+ {
+    
+    color: #857878;
+    font-size: 15px;
+ }
+ h4 
+ {
+     text-align: center;
+     padding:5  px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #000000;
+ }
+ .latest-product
+ {
+    
+  
+     background-color: #fff;
+     box-shadow:1px 1px 10px 1px grey;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .rating
+ {
+     background-color: green;
+     color: #F7F7F7;
+        margin: auto;
+     text-align: center;
+     width: 40px;
+     font-size: 13px;
+     border-radius: 2px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ hr
+ {
+     padding: 0px;
+     height: 20px;
+     margin-bottom: 0px;
+ }
+ #rate
+ {
+     padding:12px;
+ }
+ #card
+ {
+     border: none;
+     line-height: 15px;
+ }
+ .card img
+ {
+     height: 120px;
+     width: 120px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ button
+ {
+     margin: 10px;
+     border: none
+
+ }
+ .trending-shoes
+ {
+    
+    margin-left: 20px;
+     margin-right: 20px;
+     background-color: #fff;
+     box-shadow:1px 1px 10px 1px grey;
+    
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .trending-shandle
+ {
+    
+    margin-left: 20px;
+     margin-right: 20px;
+     background-color: #fff;
+     box-shadow:1px 1px 10px 1px grey;
+    
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .ftr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: rgb(19, 21, 36);
+     color: #F7F7F7;
+     margin-left: 20px;
+     margin-right: 20px;
+   
+ }
+ 
+ .ftr h6
+ {
+    padding-left: 18px;
+     padding-top: 50px;
+     font-weight: 500;
+     font-size: 15px;
+ }
+ .ftr a,p{
+     padding-left: 10px;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F7F7F7;
+    font-size: 13px;
+    font-weight: 350;
+ }
+ .Flow_Icon
+ {
+    padding: 5px 0px;
+ }
+ .q a
+ {
+    padding: 10px;
+ }
+
+
+ .copy p
+ {
+padding-bottom: 40px;
+  text-align: center;
+ }

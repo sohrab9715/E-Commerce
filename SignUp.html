@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-light fixed-top navbar-expand-sm color" >
+    <a class="navbar-brand logo" href=""> <img src="Pic/logo.png" height="55px" width="100px" alt=""> </a>
+    <button type="button"  class="navbar-toggler"  data-toggle="collapse" data-target="#mymenu"style="border:none;" >
+     <i class="fa fa-bars" aria-hidden="true" style="color: #36B449; font-size:28px;"></i>
+    </button>  
+    <div class="collapse navbar-collapse " id="mymenu">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item "> <a class="nav-link txtcolor " href="index.html">HOME</a> </li>
+                    <li class="nav-item "> <a class="nav-link txtcolor " href="ShopCatagory.html">SHOP</a> </li>
+                    <li class="nav-item"> <a class="nav-link txtcolor" href="Contact.html">CONTACT</a> </li>
+                    <li class="nav-item"> <a class="nav-link txtcolor" href="">CHART</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="login.html"><i class="fa fa-user-plus" aria-hidden="true"></i></i></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-search btnsearch" aria-hidden="true"></i></i></a> </li>
+                </ul>
+    </div> 
+   </nav>
+   <div class="search-box">
+       <input type="text" placeholder="Search Here...">
+       <span><i class="fa fa-times search-btnclose" aria-hidden="true"></i></span>
+   </div>
+
+
+    <div class="container">
+      <div class="row ra">
+              <div class="col-md-6 image">
+                  <div class="overlay">
+                       
+                      <div class="text">
+                          <h4>New to our Website</h4>
+                          <p>There are advances   science and technology everyday example of this is the</p>
+                          <button><a class="create" href="login.html">Login</a></button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 details">
+                  <form action="SignUp.php" onsubmit="return validation()" method="POST" >
+                      <h2>Register</h2>
+                      <hr>
+                       <input id="username" type="text" name="txtname" class="name" placeholder="Name"> <br>
+                       <span id="ename"></span><br>
+                       <input id="username" type="text" name="txtemail" class="email"  placeholder="Email Id"> <br>
+                       <span id="eemail"></span><br>
+                       <input id="username" type="text" name="txtmobile" class="mobile" placeholder="Mobile Number" maxlength="10"> <br>
+                       <span id="emobile"></span><br>
+                      <input id="password" type="password" name="txtpassword" class="password" placeholder="Password"><br>
+                      <span id="epassword"></span><br><br>
+                      <input type="submit" value="SignUp"> <br><br>
+                  </form> 
+              </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-flude ftr">
+          <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-2 p ">
+                    <h6 class="text-uppercase mb-4 ">policy</h6>
+                    <p>
+                      <a href="#!">Term of Use</a>
+                    </p>
+                    <p>
+                      <a href="#!">Security</a>
+                    </p>
+                    <p>
+                      <a href="#!">Privacy</a>
+                    </p>
+                    <p>
+                      <a href="#!">Return Policy</a>
+                    </p>
+                   
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2 q ">
+                    <h6 class="text-uppercase mb-4 ">company</h6>
+                    <p>
+                      <a href="#!">Home</a>
+                    </p>
+                    <p>
+                      <a href="#!">Careers</a>
+                    </p>
+                    <p>
+                      <a href="#!">About Us</a>
+                    </p>
+                    <p>
+                      <a href="#!">Blog</a>
+                    </p>
+          </div>
+              <div class="col-sm-6 col-md-4 col-lg-2 r">
+                    <h6 class="text-uppercase mb-4 ">Product</h6>
+                    <p>
+                      <a href="#!">Latest Product</a>
+                    </p>
+                    <p>
+                      <a href="#!">Trending product</a>
+                    </p>
+                    <p>
+                      <a href="#!">Shipping Rates</a>
+                    </p>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2 s">
+                    <h6 class="text-uppercase mb-4 ">Resources</h6>
+                    <p>
+                      <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                      <a href="#!">FAQ</a>
+                    </p>
+                    <p>
+                      <a href="#!">Help</a>
+                    </p>
+                    <p>
+                      <a href="#!">Support</a>
+                    </p>
+          </div>
+             
+              <div class="col-sm-6 col-md-4 col-lg-2 q ">
+                <h6 class="text-uppercase mb-4 ">FOLLOW</h6>
+               <p><a href="#!">Facebook</a></p>
+                <p> <a href="#!">Twiter</a></p>  
+                <p>   <a href="#!">Instragram</a></p>
+               <p>  <a href="#!">Linkdn</a></p>
+                 
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 p ">
+              <h6 class="text-uppercase mb-4 ">Contact</h6>
+              <p>
+                <a href="#!">Press Colony, Ashok Vihar</a>
+              </p>
+              <p>
+                <a href="#!">Bhopal, Madhya Pradesh</a>
+              </p>
+              <p>
+                <a href="#!">+917631487916</a>
+              </p>
+              <p>
+                <a href="#!">+916200539128</a>
+              </p>
+             
+        </div>
+          </div>
+
+          <hr>
+          <div class="col-12 copy">
+                <p>© 2020 Copyright :Dealmart.com (Under Development)</p>
+                
+          </div>
+          
+      </div>
+
+  </footer>
+    <script src="search-btn.js"></script>  
+  
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

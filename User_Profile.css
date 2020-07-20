@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    width: 100%;
+    /* height: 100%; */
+    background-color: #F1F3F6; 
+}
+.profile_container
+{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    /* height: 400px; */
+    /* background-color: rgb(190, 10, 10); */
+}
+.row1
+{
+   
+    margin: 0px !important;
+   
+}
+.profiles
+{
+   margin-top: 10px;
+   align-items: center;
+   background-color: #fff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+
+.profile-name
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow:1px 1px 5px 1px grey; 
+}
+
+.profile-pic
+{
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-image: url(Pic/User-Icon/user-icon.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.name
+{
+    margin-left: 10px;
+}
+h6
+{
+    font-size: 12px;
+    font-weight: 500;
+}
+h4
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu-button
+{
+   
+    width: 170px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow:0px 0px 5px 0px grey; 
+    font-size: 14px;
+    outline: none !important;
+}
+.profile
+{  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    background-color: #fff;
+    text-decoration: none;
+}
+.lblprofiles
+{
+    font-size: 16px;
+    font-weight: 600;
+    align-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.txtprofiles
+{
+    width:250px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 11px 22px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    background-color: #e2e2e2;
+}
+a
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.order
+{
+    margin-top: 10px;
+    height: 150px;
+    background-color: #fff;
+}
+.address
+{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #fff;
+}
+.address-container
+{
+    display: none;
+    transition: linear cubic-bezier(0.075, 0.82, 0.165, 1) 2s all;
+}
+select
+{
+    width:280px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 11px 22px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    background-color: #e2e2e2; 
+}
+.address button
+{
+    width: 200px;
+    height: 40px;
+    background-color: #36B449;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+}
+.lbladdress
+{
+    font-size: 16px;
+    font-weight: 600;
+    align-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.txtaddress
+{
+    width:280px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 11px 22px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    background-color: #e2e2e2;
+}
+input[type='submit']
+{
+    width: 110px;
+    height: 40px;
+    background-color:#36B449;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.search_address
+{
+    margin: 10px;
+    padding: 10px;
+}
+.payment
+{
+    margin-top: 10px;
+    height: 150px;
+    background-color: #fff;
+}
+.payment a
+{
+   padding-left: 10px;
+   text-decoration: none;
+}
+.lblcard
+{
+    font-size: 16px;
+    font-weight: 600;
+   margin-left: 5px;
+}
+.txtcard
+{
+    width:280px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 11px 22px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    background-color: #e2e2e2;
+}

@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #F1F3F6;
+}
+.bg 
+{
+   
+    margin:20px 20px;
+    background-color:#FFF;
+   
+}
+.admin_details
+{
+    display: flex;
+    align-items: center;
+
+    height: 70px;
+    margin:20px 0px;
+    background-color:#FFF;
+    box-shadow:0px 0px 4px 0px rgba(197, 194, 194, 0.966); 
+ 
+}
+.profile_pic
+{    
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin:0px 10px;
+   background-image: url(pic/User-Icon/user-icon.jpg);  
+   background-position: center;
+   background-size: cover; 
+}
+
+h2
+{
+    font-size: 15px;
+    padding:0px 10px;
+}
+h3
+{
+    font-size: 23px;
+}
+
+.menu button
+{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 300px;
+    height: 80px;
+    margin: 8px 10px;
+    background-color: #fff;
+    box-shadow:0px 0px 5px 0px rgba(197, 194, 194, 0.966); 
+    border: none;
+    outline: none;
+}
+button:hover
+{
+  background-color: rgb(51, 128, 62);
+  color: #FFF;
+}
+
+.add-new-product
+{
+ margin-bottom: 10px;
+ padding: 0px 20px;
+ /* box-shadow:0px 0px 5px 0px rgba(197, 194, 194, 0.966);  */
+
+
+}
+label
+{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px 0px;
+}
+span
+{
+    color: red;
+    padding-left: 5px;
+}
+.add-new-product input
+{
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 8px 22px;
+    margin-bottom: 10px;
+}
+.add-new-product input[type='file']
+{
+    width: 265px;
+    padding: 8px 2px !important;
+   
+}
+textarea
+{
+    border-radius: 4px;
+    width: 265px;
+    height: 100px;
+    border: 1px solid green;
+    resize: none;
+}
+.add-new-product input[type='submit']
+{
+    background-color: green;
+    color: #FFF;
+}
+#output_image
+{
+    width: 265px;
+    height: 250px;
+    border: 1px solid green;
+}
+.footer1
+{
+   
+    margin: 20px;
+    background-color: #131524;
+}
+@keyframes down {
+    from { height: 0px; }
+    to {height: 650px;}
+}
+@keyframes up {
+    from { height: 550px; }
+    to { height: 0px;}
+}

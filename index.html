@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dealmart</title>
+    <link rel="shortcut icon" href="Pic/logo.png" type="image/x-png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+</head>
+<body>
+   <nav class="navbar navbar-light fixed-top navbar-expand-sm color" >
+    <a class="navbar-brand logo" href=""> <img src="Pic/logo.png" height="55px" width="100px" alt=""> </a>
+    <button type="button"  class="navbar-toggler"  data-toggle="collapse" data-target="#mymenu"style="border:none;" >
+     <i class="fa fa-bars" aria-hidden="true" style="color: #36B449; font-size:28px;"></i>
+    </button>  
+    <div class="collapse navbar-collapse " id="mymenu">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item "> <a class="nav-link txtcolor " href="index.html">HOME</a> </li>
+                    <li class="nav-item "> <a class="nav-link txtcolor " href="ShopCatagory.html">SHOP</a> </li>
+                    <li class="nav-item"> <a class="nav-link txtcolor" href="Contact.html">CONTACT</a> </li>
+                    <li class="nav-item"> <a class="nav-link txtcolor" href="#">CHART</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="login.html"><i class="fa fa-user-plus" aria-hidden="true"></i></i></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-search btnsearch" aria-hidden="true"></i></i></a> </li>
+                </ul>
+    </div> 
+   </nav>
+   <div class="search-box">
+       <input type="text" placeholder="Search Here...">
+       <span><i class="fa fa-times search-btnclose" aria-hidden="true"></i></span>
+   </div>
+    <div class="container-flude sl">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item simage active">
+                        <img class="d-block w-100" src="Pic/slider/g6.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Trending Product</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+              </div>
+              <div class="carousel-item simage">
+                        <img class="d-block w-100" src="Pic/slider/g8.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Latest Product</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+              </div>
+              <div class="carousel-item simage">
+                        <img class="d-block w-100" src="Pic/slider/g7.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Trending Product</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="container-flude feature">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-sm-2 " >
+                    <img class="rounded mx-auto d-block align-middle"  src="features/f-icon1.png" alt="">
+                    <h5>Free Delivery</h5>
+                    <p>Free Shipping on all order</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-2 ">
+                    <img class="rounded mx-auto d-block" src="features/f-icon2.png" alt="">
+                    <h5>Return Policy</h5>
+                    <p>Free Shipping on all order</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-2">
+                <img class="rounded mx-auto d-block" src="features/f-icon3.png" alt="">
+                <h5>24/7 Support</h5>
+                <p>Free Shipping on all order</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-2">
+                <img class="rounded mx-auto d-block" src="features/f-icon4.png" alt="">
+                <h5>Secure Payment</h5>
+                <p>Free Shipping on all order</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-flude Laptop_product">
+        <div class="row first_row">
+            <div class="col-sm-6 col-md-4 col-lg-2 a">
+                  <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="laptop-img">
+                        <img src="Pic/Laptop/l-1.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">30,000</span>
+                      <p class="laptop-name">Lenovo Ideapad S145 Ryzen 3 Dual Core - (4 GB/1 TB HDD/...</p>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 b">
+                <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                <div class="laptop-img">
+                    <img src="Pic/Laptop/l-2.jpeg" alt="">  
+                </div>
+                <div class="laptop-details">
+                  <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">28,999</span>
+                  <p class="laptop-name">HP 14q APU Dual Core A9 - (4 GB/256 GB SSD/Windows 10 H...</p>
+                </div> 
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 c">
+                <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                <div class="laptop-img">
+                    <img src="Pic/Laptop/l-3.jpeg" alt="">  
+                </div>
+                <div class="laptop-details">
+                  <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">32,000</span>
+                  <p class="laptop-name">Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows...</p>
+                </div> 
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 d">
+                <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                <div class="laptop-img">
+                    <img src="Pic/Laptop/l-4.jpeg" alt="">  
+                </div>
+                <div class="laptop-details">
+                  <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">43,990</span>
+                  <p class="laptop-name">Lenovo Ideapad S145 Core i5 8th Gen - (8 GB/1 TB HDD/25...</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 e">
+                <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                <div class="laptop-img">
+                    <img src="Pic/Laptop/l-5.jpeg" alt="">  
+                </div>
+                <div class="laptop-details">
+                  <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">49,999</span>
+                  <p class="laptop-name">HP Pavilion 15-EC Ryzen 5 Quad Core - (8 GB/1 TB HDD/12...</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 f">
+                <div class="heart">
+                    <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                  </div>
+                 <div class="laptop-img">
+                    <img src="Pic/Laptop/l-6.jpeg" alt="">  
+                </div>
+                <div class="laptop-details">
+                  <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">26,990</span>
+                  <p class="laptop-name">Lenovo Ideapad 130 Core i3 7th Gen - (4 GB/1 TB HDD/Win...</p>
+                </div>
+            </div>
+        </div>
+        <div class="row second_row">
+          <div class="col-sm-6 col-md-4 col-lg-2 a">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-1.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">25,999</span>
+                      <p class="laptop-name">Dell Inspiron 15 3000 Series Core i7 8th Gen - (8 GB/2 ...</p>
+                  </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 b">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-2.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">45,490</span>
+                      <p class="laptop-name">Lenovo Ideapad 330 Core i3 7th Gen - (4 GB/1 TB HDD/Win...</p>
+                  </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 c">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-3.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">32,000</span>
+                      <p class="laptop-name">Asus ZenBook 13 Core i5 8th Gen - (8 GB/256 GB SSD/Wind...</p>
+                  </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 d">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-4.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">30,000</span>
+                      <p class="laptop-name">Lenovo Ideapad S145 Ryzen 3 Dual Core - (4 GB/1 TB HDD/...</p>
+                  </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 e">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-5.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">69,999</span>
+                      <p class="laptop-name">HP Pavilion 14-ce Core i7 10th Gen - (8 GB/512 GB SSD/W...</p>
+                  </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 f">
+              <div class="heart">
+                  <i class="fa fa-heart h_icon" aria-hidden="true"></i>
+                </div>
+                    <div class="laptop-img">
+                        <img src="Pic/Laptop/s-6.jpeg" alt="">  
+                  </div>
+                  <div class="laptop-details">
+                      <i class="fa fa-inr currency_symbol" aria-hidden="true"></i><span class="price">33,990</span>
+                      <p class="laptop-name">Asus ZenBook Pro Duo Core i9 9th Gen - (32 GB/1 TB SSD/...</p>
+                  </div>
+          </div>
+        </div>
+        <hr>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+    </div>
+   <div class="container-flude latest-product">
+            <h4>Latest Product</h4>     
+            <hr>
+         
+        <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 " >
+                <div class="card" id="card" >
+                    <img src="Pic/Product/l1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body " >
+                            <a href="">Gritstones Striped Men Henely</a> <br> <small>Grey T-Shirt</small><br> 
+                            <div class="rating">4.3 <span class="fa fa-star checked"></span > </div>  
+                            <strike class="text-secondary">Rs 500</strike>  <span id="rate">Rs 300</span>
+                        </div>
+                </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 ">
+                <div class="card" id="card" >
+                        <img src="Pic/Product/l6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body " >
+                                <a href="">Gritstones Striped Men Henely</a> <br> <small>Grey T-Shirt</small><br> 
+                                <div class="rating">8.3 <span class="fa fa-star checked"></span > </div>  
+                                <strike class="text-secondary">Rs 1200</strike>  <span id="rate">Rs 800</span>
+                            </div>
+                    </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                <div class="card" id="card" >
+                        <img src="Pic/Product/l2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body " >
+                                <a href="">Gritstones Striped Men Henely</a> <br> <small>Grey T-Shirt</small><br> 
+                                <div class="rating">1.3 <span class="fa fa-star checked"></span > </div>  
+                                <strike class="text-secondary">Rs 400</strike>  <span id="rate">Rs 200</span>
+                            </div>
+                    </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                <div class="card" id="card" >
+                        <img src="Pic/Product/l8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body " >
+                                <a href="Item.html">Casual Cutout Sleeve Solid Women Red Shirt</a> <br> <small>Grey T-Shirt</small><br> 
+                                <div class="rating">6.2 <span class="fa fa-star checked"></span > </div>  
+                                <strike class="text-secondary">Rs 1500</strike>  <span id="rate">Rs 900</span>
+                            </div>
+                    </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+          <div class="card" id="card" >
+                  <img src="Pic/Product/l7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body " >
+                          <a href="">Gritstones Striped Men Henely</a> <br> <small>Grey T-Shirt</small><br> 
+                          <div class="rating">1.3 <span class="fa fa-star checked"></span > </div>  
+                          <strike class="text-secondary">Rs 400</strike>  <span id="rate">Rs 200</span>
+                      </div>
+              </div>
+     </div>
+     <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+      <div class="card" id="card" >
+              <img src="Pic/Product/l3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body " >
+                      <a href="">Gritstones Striped Men Henely</a> <br> <small>Grey T-Shirt</small><br> 
+                      <div class="rating">1.3 <span class="fa fa-star checked"></span > </div>  
+                      <strike class="text-secondary">Rs 400</strike>  <span id="rate">Rs 200</span>
+                  </div>
+          </div>
+ </div>
+       </div>
+       <a style="font-size: 18px;font-weight:400"  href="">Show More.....</a>
+   </div>
+   <footer>
+    <div class="container-flude ftr">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2 p ">
+                  <h6 class="text-uppercase mb-4 ">policy</h6>
+                  <p>
+                    <a href="#!">Term of Use</a>
+                  </p>
+                  <p>
+                    <a href="#!">Security</a>
+                  </p>
+                  <p>
+                    <a href="#!">Privacy</a>
+                  </p>
+                  <p>
+                    <a href="#!">Return Policy</a>
+                  </p>
+                 
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 q ">
+                  <h6 class="text-uppercase mb-4 ">company</h6>
+                  <p>
+                    <a href="#!">Home</a>
+                  </p>
+                  <p>
+                    <a href="#!">Careers</a>
+                  </p>
+                  <p>
+                    <a href="#!">About Us</a>
+                  </p>
+                  <p>
+                    <a href="#!">Blog</a>
+                  </p>
+        </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 r">
+                  <h6 class="text-uppercase mb-4 ">Product</h6>
+                  <p>
+                    <a href="#!">Latest Product</a>
+                  </p>
+                  <p>
+                    <a href="#!">Trending product</a>
+                  </p>
+                  <p>
+                    <a href="#!">Shipping Rates</a>
+                  </p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 s">
+                  <h6 class="text-uppercase mb-4 ">Resources</h6>
+                  <p>
+                    <a href="#!">Your Account</a>
+                  </p>
+                  <p>
+                    <a href="#!">FAQ</a>
+                  </p>
+                  <p>
+                    <a href="#!">Help</a>
+                  </p>
+                  <p>
+                    <a href="#!">Support</a>
+                  </p>
+        </div>
+           
+            <div class="col-sm-6 col-md-4 col-lg-2 q ">
+              <h6 class="text-uppercase mb-4 ">FOLLOW</h6>
+             <p><a href="#!">Facebook</a></p>
+              <p> <a href="#!">Twiter</a></p>  
+              <p>   <a href="#!">Instragram</a></p>
+             <p>  <a href="#!">Linkdn</a></p>
+               
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 p ">
+            <h6 class="text-uppercase mb-4 ">Contact</h6>
+            <p>
+              <a href="#!">Press Colony, Ashok Vihar</a>
+            </p>
+            <p>
+              <a href="#!">Bhopal, Madhya Pradesh</a>
+            </p>
+            <p>
+              <a href="#!">+917631487916</a>
+            </p>
+            <p>
+              <a href="#!">+916200539128</a>
+            </p>
+           
+      </div>
+        </div>
+
+        <hr>
+        <div class="col-12 copy">
+              <p>© 2020 Copyright :Dealmart.com (Under Development)</p>
+              
+        </div>
+        
+    </div>
+
+</footer>
+      
+   <script src="search-btn.js"></script>  
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+</body>
+</html>
